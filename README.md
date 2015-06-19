@@ -23,4 +23,5 @@ The example above shows an actual resulting line, all fields space-separated, th
 5. User class, in this example it is a MO that stands for *Middle Occasional* (please refer to [1] for a better description of each of the classes)   
 
 [1] Eduardo Mucelli Rezende Oliveira, Aline Carneiro Viana, K. P. Naveen and Carlos Sarraute, *"Measurement-driven mobile data traffic modeling in a large metropolitan area"*, IEEE Percom, March 2015, Saint Louis, United States
+
 [2] Eduardo Mucelli Rezende Oliveira, A. C. Viana, K. P. Naveen, and C. Sarraute. *"Mobile Data Traffic Modeling: Revealing Temporal Facets"*. ([PDF](https://hal.inria.fr/hal-01073129v5/document)) INRIA Research Report, RR-8613. October 2014.
