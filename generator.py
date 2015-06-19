@@ -14,7 +14,7 @@ SYNTHETIC_DIRECTORY = "synthetic"                   # Directory that contains th
 ONE_HOUR = 3600
 ONE_DAY = ONE_HOUR * 24
 
-NUMBER_OF_SYNTHETIC_USERS = 1516901                 # The number of resulting synthetic users. Define here the amount you wish, but take into consideration the probabilities in UserDistribution class
+NUMBER_OF_SYNTHETIC_USERS = 10 #1516901                 # The number of resulting synthetic users. Define here the amount you wish, but take into consideration the probabilities in UserDistribution class
 
 class Distribution(object):
   def __init__(self, user_class, hour):
@@ -298,7 +298,7 @@ class User(object):
         yield [filesize, arrival_datetime]
 
   def write_traffic_to_file(self):
-    user_syntethic_trace_path = path.join(USERS_DIRECTORY, SYNTHETIC_DIRECTORY, str(self.initial_timestamp_date.month), str(self.initial_timestamp_date.day))
+    user_syntethic_trace_path = path.join(USERS_DIRECTORY, SYNTHETIC_DIRECTORY)
     if not path.exists(user_syntethic_trace_path):
       makedirs(user_syntethic_trace_path)
     debug("Generating synthetic traffic for user %s" % self.uid)
