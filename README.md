@@ -2,7 +2,7 @@
 
 Synthetic traffic generator created from real data from more than 6.8 million subscribers in Mexico City.
 
-The methodology involved in order to create this synthetic traffic generator has been described in [1]. 
+More information on the model and used methodology can be found on our papers linked here below [1,2]. If you intend to publish your results based on this synthetic generator, we appreciate if you cite this website and the publications.
 
 ### Usage 
 
@@ -22,5 +22,5 @@ The example above shows an actual resulting line, all fields space-separated, th
 4. The traffic volume, in KiloBytes generated in this session
 5. User class, in this example it is a MO that stands for *Middle Occasional* (please refer to [1] for a better description of each of the classes)   
 
-
-[1] Eduardo Mucelli Rezende Oliveira, A. C. Viana, K. P. Naveen, and C. Sarraute. *"Mobile Data Traffic Modeling: Revealing Temporal Facets"*. ([PDF](https://hal.inria.fr/hal-01073129v5/document)) INRIA Research Report, RR-8613. October 2014.
+[1] Eduardo Mucelli Rezende Oliveira, Aline Carneiro Viana, K. P. Naveen and Carlos Sarraute, *"Measurement-driven mobile data traffic modeling in a large metropolitan area"*, IEEE Percom, March 2015, Saint Louis, United States
+[2] Eduardo Mucelli Rezende Oliveira, A. C. Viana, K. P. Naveen, and C. Sarraute. *"Mobile Data Traffic Modeling: Revealing Temporal Facets"*. ([PDF](https://hal.inria.fr/hal-01073129v5/document)) INRIA Research Report, RR-8613. October 2014.
