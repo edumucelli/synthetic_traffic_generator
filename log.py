@@ -9,5 +9,6 @@ formatter = logging.Formatter('%(asctime)s %(message)s', datefmt="%d-%m-%Y %H:%M
 fh.setFormatter(formatter)
 logger.addHandler(fh)
 
+
 def debug(message):
-  logger.debug(message)
+    logger.debug(message)
